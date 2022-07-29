@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="icone/favicon .ico" type="image/x-icon">
+</head>
+
+<body>
+    <div id="area-logo">
+        <h1>Estoque <span class="blue">RickTec</span></h1>
+    </div>
+
+
+    <div id="inputs">
+        <input type="text" name="produto" id="produto" placeholder="Nome Produto">
+        <input type="number" name="quantidade" id="quantidade" placeholder="Quantidade">
+        <input type="number" name="precoUnitario" id="precoUnitario" placeholder="Preço Unitario">
+        <button onclick="produto.salvar()">Registrar</button>
+        <button onclick="produto.limpar()">Limpar</button>
+    </div>
+
+
+    <table id="table" class="border">
+        <thead class="titulo-table">
+            <tr>
+                <th>ID</th>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Preço Unitario</th>
+                <th>Valor Total</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            <tr>
+
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
