@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f8f8ff;
+}
+
+/*Area logo*/
+
+#area-logo {
+    background-color: #dcdcdc;
+    text-align: center;
+    padding: 15px;
+}
+
+/*Position inputs */
+input {
+    /*Junta os inputs*/
+    float: left;
+    padding: 5px;
+    width: 200px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#inputs {
+    margin-left: 280px;
+    margin-bottom: 60px;
+    margin-top: 6px;
+}
+
+/*Posicionamento da tabela(div) */
+#table {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 900px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+tr td {
+    border: 1px solid black;
+}
+
+/*Titulo da tabela*/
+.titulo-table {
+    font-weight: bold;
+}
+
+/*Meus botões*/
+
+button {
+    float: left;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+.blue {
+    color: blue;
+}
+
+.border {
+    border: 1px solid black;
+}
